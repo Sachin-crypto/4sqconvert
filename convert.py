@@ -14,4 +14,4 @@ for comp in cal.walk():
 		latitude = comp["geo"].latitude
 		longitude = comp["geo"].longitude
 		url = comp["url"]
-		print ",".join([name,  time,  unicode(latitude), unicode(longitude) , url])
+		print (",".join([name,  time,  unicode(latitude), unicode(longitude) , url]))
